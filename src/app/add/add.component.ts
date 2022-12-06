@@ -8,7 +8,7 @@ import { ApiService } from '../api.service';
 })
 export class AddComponent {
   username=""
-id=""
+ids=""
 address=""
 number=""
 date=""
@@ -20,7 +20,7 @@ eventEntry=()=>
 {
   let data0:any={
   "username":this.username,
-  "id":this.id,
+  "ids":this.ids,
    "address":this.address,
    "number":this.number,
    "date":this.date,
